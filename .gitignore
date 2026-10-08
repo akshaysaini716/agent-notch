@@ -1,0 +1,9 @@
+.build/
+build/
+.swiftpm/
+snapshots/
+.DS_Store
+
+# Local copies of the Start/Stop scripts (the tracked ones live in scripts/)
+/Start AgentNotch.command
+/Stop AgentNotch.command

@@ -1,0 +1,146 @@
+{
+  "hooks" : {
+    "Notification" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 600,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "PostToolUse" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "PreToolUse" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      },
+      {
+        "hooks" : [
+          {
+            "timeout" : 600,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook/question"
+          }
+        ],
+        "matcher" : "AskUserQuestion"
+      }
+    ],
+    "SessionEnd" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "SessionStart" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "Stop" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "StopFailure" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "SubagentStart" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "SubagentStop" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit" : [
+      {
+        "hooks" : [
+          {
+            "timeout" : 2,
+            "type" : "http",
+            "url" : "http://127.0.0.1:47823/hook"
+          }
+        ]
+      }
+    ]
+  }
+}
